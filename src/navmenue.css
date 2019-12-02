@@ -1,0 +1,40 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: rgb(182, 158, 158);
+  width: 60%;
+  align-items: center;
+  margin-left: 180px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 2px;
+
+}
+.list-menu {
+  display: none;
+  list-style-type: none;
+  color: blue;
+}
+.list-menu li:hover {
+  color: rgb(92, 81, 81);;
+}
+.list-menu li {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+.poster:hover .list-menu {
+  display: block;
+  background-color: rgb(182, 158, 158);
+  border-radius: 10px; 
+  position: absolute;
+  top: 28px;
+   z-index: 5;
+}
+.poster:hover {
+  cursor: pointer;
+}
